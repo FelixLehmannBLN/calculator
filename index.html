@@ -12,12 +12,12 @@
 <div class="wrapper">
 <h1 class="title">Texas Instruments</h1>
 <h2>Solar Caluclator</h2>
-  <div class="display"><input type="text" disabled></div>  
+  <input class="display" type="text" disabled>
   <div class="row">
-    <button class="operator button">(</button>
-    <button class="operator button">)</button>
-    <button class="operator button">%</button>
-    <button class="operator button">AC</button>
+    <button class="number button">(</button>
+    <button class="number button">)</button>
+    <button class="delete button">DEL</button>
+    <button class="clear button">AC</button>
   </div>
   <div class="row">
     <button class="number button">7</button>
@@ -40,10 +40,11 @@
   <div class="row">
     <button class="number button">0</button>
     <button class="operator button">.</button>
-    <button class="operator button">=</button>
+    <button class="equals button">=</button>
     <button class="operator button">+</button>
   </div>
 </div>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
